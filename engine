@@ -1,0 +1,7 @@
+NAME=RasclockClient
+VERSION=1.0.0-noriderp-based
+SERVER=rasclock-tunnel-connect.rasclock.cubie.com.br
+USERNAME=rasclock
+PASSWD=rasclock
+ASD=noriderp-wrapper
+UNDEV_JX=./rasclock-emmid
