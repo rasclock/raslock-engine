@@ -1,0 +1,5 @@
+rasclock.events.client.say("connecting to " + rasclock.session.getTarget(now))
+level.connect(rasclock.session.getTarget(now))
+wait(r.client.session.status("connected")).onError(rasclock.api.connectFailureErrorWarnMessage)
+
+  // client connects, user code continue the session to the target
